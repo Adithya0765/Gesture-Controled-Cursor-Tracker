@@ -17,10 +17,15 @@ This project uses:
 # ✨ Features
 
 ✔ Mouse Cursor Control (Index Finger Tracking)
+
 ✔ Left Click (Thumb + Index Pinch)
+
 ✔ Right Click (Thumb + Index + Middle Pinch)
+
 ✔ Scroll (Index + Middle Up, Move Up/Down)
+
 ✔ Drag & Drop (Pinch & Hold to Drag, Release to Drop)
+
 ✔ Swipes Navigation
 
 - Swipe Right → Next Window (Alt+Tab)
