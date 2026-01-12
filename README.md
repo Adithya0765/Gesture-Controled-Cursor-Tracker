@@ -66,6 +66,14 @@ No gloves, sensors, or depth cameras needed. Just a regular laptop webcam.
 | `numpy`         | Math & filtering         |
 | `time`          | Timing / debounce        |
 
+# 🛠️ Installation & Setup
+1. Install Python 3.11
+
+Download from:
+ - https://www.python.org/downloads/
+
+> ⚠ Make sure to check “Add to PATH” during installation.
+
 # 🧰 VSCode Configuration Guide
 
 ### 1. Install VSCode
@@ -82,7 +90,30 @@ Recommended extensions:
 
 - Code Runner (optional)
 
-### 3. Select Python Interpreter
+### 3. Clone this Repository
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+```
+### 4. Create a Virtual Environment (Recommended)
+
+```bash
+python -m venv .venv
+```
+Activate it:
+```bash
+.\.venv\Scripts\Activate.ps1
+```
+### 5. Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+If you don’t have a requirements file, install manually:
+```bash
+pip install opencv-python mediapipe pyautogui numpy
+```
+### 6. Select Python Interpreter
 
 Inside VSCode:
 ```bash
@@ -93,7 +124,7 @@ Choose:
 ```bash
 ./.venv/Scripts/python.exe
 ```
-### 4. Enable Webcam Permissions (Windows)
+### 7. Enable Webcam Permissions (Windows)
 
 Go to:
 ```
