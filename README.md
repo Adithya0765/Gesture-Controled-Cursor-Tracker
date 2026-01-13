@@ -1,4 +1,4 @@
-# 🖐️ Gesture Controlled Mouse & Navigation Using Python + MediaPipe
+# 🖐️ Gesture Controlled Mouse & Navigation Using Python + MediaPipe(only works upto Python 3.11.x)
 
 ## Control your entire computer using hand gestures in front of your webcam — no special hardware required!
 
